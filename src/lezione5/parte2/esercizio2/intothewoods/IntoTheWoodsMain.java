@@ -54,8 +54,7 @@ public final class IntoTheWoodsMain {
 			if (!test_tree.containsLabel(ABSENT_LABEL)) {
 				success_number++;
 			}
-			double result = success_number / (size + 1.0);
-			return result;
+			return success_number / (num_labels + 1.0);
 			
 		} catch (Exception e) {
 			// In caso venga generata un'eccezione, il test è da considerarsi fallito.
